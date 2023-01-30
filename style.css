@@ -1,0 +1,131 @@
+#app{
+    height: 690px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+text-align: center;
+}
+
+.holder__headline{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+.holder__zip{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#zip{
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-70944.jpg?t=st=1675071613~exp=1675072213~hmac=73488225cc774f985e63d0562fe0bfeebbcf7606b8dd98228e6dfe4b5c9c2422);
+    opacity: 0.8;
+    background-size:cover;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.holder__feel{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+   align-items: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+}
+
+#feelings{
+    font-size: 15px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-70944.jpg?t=st=1675071613~exp=1675072213~hmac=73488225cc774f985e63d0562fe0bfeebbcf7606b8dd98228e6dfe4b5c9c2422);
+    opacity: 0.8;
+    background-size:cover;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#generate{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-70944.jpg?t=st=1675071613~exp=1675072213~hmac=73488225cc774f985e63d0562fe0bfeebbcf7606b8dd98228e6dfe4b5c9c2422);
+    opacity: 0.8;
+}
+
+
+.holder__entry{
+    display: flex;
+flex-direction: column;
+height: 100px;
+align-items: center;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
+
+#entryHolder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+margin-left: 10px;
+height: 100px;
+width: 600px;
+border: 1px solid black;
+border-radius: 5px;
+background-color: white;
+background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-70944.jpg?t=st=1675071613~exp=1675072213~hmac=73488225cc774f985e63d0562fe0bfeebbcf7606b8dd98228e6dfe4b5c9c2422);
+opacity: 0.8;
+background-size:cover;
+
+}
+
+#date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+        background-image:url(https://img.freepik.com/free-vector/podium-with-clouds-gold-arch-abstract-background-with-empty-cylindrical-stage-award-ceremony_107791-4975.jpg?w=1380&t=st=1675071465~exp=1675072065~hmac=e438cdc96cf5c0ca1d313002e8a73745995ad9e989737771223fae04dd463f70);
+    background-position: center;
+}
